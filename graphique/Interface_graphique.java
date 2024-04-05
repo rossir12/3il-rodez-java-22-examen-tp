@@ -2,7 +2,6 @@ package graphique;
 
 import javax.swing.*;
 import java.awt.event.*;
-import tache.Tache;
 
 public class Interface_graphique implements ActionListener {
 	JTextField titre, description, date_echeance, result_titre, result_description;

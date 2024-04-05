@@ -8,54 +8,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 - [ ] Formulaire de saisie des détails de la tâche.
 - [ ] Bouton "Ajouter".
-- [ ] Test unitaire associé.
+
 
 (Explication et justification de ce qui a été fait...)
-
-### Modification d'une tâche
-
-- [ ] Mécanisme de sélection et de modification de la tâche.
-- [ ] Bouton "Modifier".
-- [ ] Test unitaire associé.
-
-(Explication et justification de ce qui a été fait...)
-
-### Suppression d'une tâche
-
-- [ ] Mécanisme de sélection et de suppression de la tâche.
-- [ ] Bouton "Supprimer".
-- [ ] Test unitaire associé.
-
-(Explication et justification de ce qui a été fait...)
-
-### Visualisation des tâches
-
-- [ ] Affichage des détails des tâches existantes.
-- [ ] Mécanisme de filtrage ou de tri des tâches.
-- [ ] Test unitaire associé.
-
-(Explication et justification de ce qui a été fait...)
-
-### Gestion des priorités
-
-- [ ] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
-- [ ] Test unitaire associé.
-
-(Explication et justification de ce qui a été fait...)
-
-### Possibilité d'évolution
-
-- [ ] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
-- [ ] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
-
-(Explication et justification de ce qui a été fait...)
-
-## Bonus
-
-### Implémentation de la sérialisation des tâches
-
-- [ ] Sauvegarde des tâches lors de la fermeture de l'application.
-- [ ] Chargement des tâches lors de l'ouverture de l'application.
-- [ ] Test unitaire associé.
-
-(Explication et justification de ce qui a été fait...)
+Google est mon ami.

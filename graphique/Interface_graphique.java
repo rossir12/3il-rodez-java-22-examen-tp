@@ -21,6 +21,9 @@ public class Interface_graphique implements ActionListener {
  *	frame.add permet d'ajouter les différents éléments à la fenêtre d'affichage
  *	setText permet d'afficher le texte saisie auparavant
  *	getText permet de récuperer le texte saisie dans les champs
+ *	setSize permet de définir la taille de la fenêtre
+ *	setVisible permet de rendre visible ou non un élement
+ *	JTextField permet de créer la zone de saisie dans laquelle on indiquera un titre ou une description
  */
 	public Interface_graphique() {
 
@@ -67,6 +70,7 @@ public class Interface_graphique implements ActionListener {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		// création de la fenêtre d'affichage
 		new Interface_graphique();
 	}
 }

@@ -3,10 +3,25 @@ package graphique;
 import javax.swing.*;
 import java.awt.event.*;
 
+/**
+ * La classe Interface_graphique permet d'afficher une fenêtre dans laquelle
+ * on saisie un titre et une description.
+ * Un bouton valider permet d'afficher le titre et la description dans
+ * un encadré ci-dessous.
+ */
 public class Interface_graphique implements ActionListener {
 	JTextField titre, description, date_echeance, result_titre, result_description;
 	JButton click;
-
+/**
+ * Construction Interface_graphique
+ *	setBounds permet d'ajuster la taille de la zone de saisie
+ *	setEditable(false) permet de rendre la zone de saisie non editable
+ *	JButton permet de créer un bouton 
+ *	addActionListener permet d'ajouter un événement lors d'un click sur le bouton
+ *	frame.add permet d'ajouter les différents éléments à la fenêtre d'affichage
+ *	setText permet d'afficher le texte saisie auparavant
+ *	getText permet de récuperer le texte saisie dans les champs
+ */
 	public Interface_graphique() {
 
 		JFrame frame = new JFrame("Ajout d'un élement");
@@ -33,6 +48,11 @@ public class Interface_graphique implements ActionListener {
 		frame.setVisible(true);
 	}
 	
+	/**
+	 * Méthode sans retour (void)
+	 * Cette méthode permet de recupérer le texte saisie et de l'afficher 
+	 * dans les zone non éditable
+	 */
 	public void actionPerformed(ActionEvent e) {
 		String affichageTitre = titre.getText();
 		String affichageDescrption = description.getText();
@@ -42,6 +62,10 @@ public class Interface_graphique implements ActionListener {
 		}
 	}
 	
+	/**
+	 * Méthode permettant de lancer la fenêtre permettant la saisie des tâches
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		new Interface_graphique();
 	}
